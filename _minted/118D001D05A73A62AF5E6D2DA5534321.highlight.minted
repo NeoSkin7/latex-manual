@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}columns\PYG{n+nb}{\PYGZcb{}}
+
+  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}column\PYG{n+nb}{\PYGZcb{}\PYGZob{}}0.5\PYG{k}{\PYGZbs{}textwidth}\PYG{n+nb}{\PYGZcb{}}
+    This is column one \PYGZhy{}\PYGZhy{} on the left!
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}column\PYG{n+nb}{\PYGZcb{}}
+
+  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}column\PYG{n+nb}{\PYGZcb{}\PYGZob{}}0.5\PYG{k}{\PYGZbs{}textwidth}\PYG{n+nb}{\PYGZcb{}}
+    And now one for the right.
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}column\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}columns\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

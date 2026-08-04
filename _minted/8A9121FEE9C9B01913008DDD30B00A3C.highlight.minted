@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}sin} (\PYG{k}{\PYGZbs{}pi} \PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}} rad\PYG{n+nb}{\PYGZcb{}}) = 0
+\PYG{k}{\PYGZbs{}cos} 30\PYG{n+nb}{\PYGZca{}\PYGZob{}}\PYG{k}{\PYGZbs{}circ}\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}sqrt}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}tan} x = y
+x = \PYG{k}{\PYGZbs{}arctan} y = \PYG{k}{\PYGZbs{}tan}\PYG{n+nb}{\PYGZca{}\PYGZob{}}\PYGZhy{}1\PYG{n+nb}{\PYGZcb{}} y
+\PYG{k}{\PYGZbs{}sin}\PYG{n+nb}{\PYGZca{}}2 x + \PYG{k}{\PYGZbs{}cos}\PYG{n+nb}{\PYGZca{}}2 x = 1
+\end{MintedVerbatim}

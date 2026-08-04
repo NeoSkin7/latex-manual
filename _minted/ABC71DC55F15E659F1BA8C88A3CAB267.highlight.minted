@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}eq:cases\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}cases\PYG{n+nb}{\PYGZcb{}}
+    v = u + at      \PYG{k}{\PYGZbs{}\PYGZbs{}}
+    v\PYG{n+nb}{\PYGZca{}}2 = u\PYG{n+nb}{\PYGZca{}}2 + 2as
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}cases\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

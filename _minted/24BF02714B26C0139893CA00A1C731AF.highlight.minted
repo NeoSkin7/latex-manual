@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+The quadratic formula is
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}eq:quad\PYG{n+nb}{\PYGZcb{}}
+  x = \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}\PYGZhy{}b \PYG{k}{\PYGZbs{}pm} \PYG{k}{\PYGZbs{}sqrt}\PYG{n+nb}{\PYGZob{}}b\PYG{n+nb}{\PYGZca{}}2 \PYGZhy{} 4ac\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZob{}}2a\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{},} ,
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+where \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{x}\PYG{l+s}{\PYGZdl{}} is the variable of the equation \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{ax\PYGZca{}}\PYG{l+m}{2}\PYG{n+nb}{ }\PYG{o}{+}\PYG{n+nb}{ bx }\PYG{o}{+}\PYG{n+nb}{ c }\PYG{o}{=}\PYG{n+nb}{ }\PYG{l+m}{0}\PYG{l+s}{\PYGZdl{}}.
+\end{MintedVerbatim}

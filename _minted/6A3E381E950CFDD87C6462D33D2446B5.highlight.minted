@@ -1,0 +1,5 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}} l l l \PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 3 columns of left aligned text with no column separators}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|c|c|c|c|\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 4 columns of centred text with lines either side of each column}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}||r|c||\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 2 columns (right\PYGZhy{} and centre\PYGZhy{}aligned) separated by a single line, with a double line outer border.}
+\end{MintedVerbatim}

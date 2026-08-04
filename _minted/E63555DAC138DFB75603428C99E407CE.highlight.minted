@@ -1,0 +1,3 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}setbeamertemplate}\PYG{n+nb}{\PYGZob{}}note page\PYG{n+nb}{\PYGZcb{}}[lined][6]
+\end{MintedVerbatim}

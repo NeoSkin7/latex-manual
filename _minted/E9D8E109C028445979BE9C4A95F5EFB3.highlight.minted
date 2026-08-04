@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+Alternatives are just around the corner:
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}vb}\PYG{n+nb}{\PYGZob{}}F\PYG{n+nb}{\PYGZcb{}\PYGZus{}\PYGZob{}}\PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}L\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} = q\PYG{k}{\PYGZbs{}left}( \PYG{k}{\PYGZbs{}textcolor}\PYG{n+nb}{\PYGZob{}}blue\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}vb}\PYG{n+nb}{\PYGZob{}}v\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} \PYG{k}{\PYGZbs{}cp} \PYG{k}{\PYGZbs{}textcolor}\PYG{n+nb}{\PYGZob{}}red\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}vb}\PYG{n+nb}{\PYGZob{}}B\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} \PYG{k}{\PYGZbs{}right})\PYG{k}{\PYGZbs{},} .
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

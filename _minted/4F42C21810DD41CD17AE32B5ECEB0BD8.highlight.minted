@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}centering}
+  \PYG{k}{\PYGZbs{}subcaptionbox}\PYG{n+nb}{\PYGZob{}}Image A\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:multi\PYGZhy{}a\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} \PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[width=0.45\PYGZbs{}textwidth]}\PYG{n+nb}{\PYGZob{}}a\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}subcaptionbox}\PYG{n+nb}{\PYGZob{}}Image B\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:multi\PYGZhy{}b\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} \PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[width=0.45\PYGZbs{}textwidth]}\PYG{n+nb}{\PYGZob{}}b\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}Multiple Figures in One!\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:multi\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

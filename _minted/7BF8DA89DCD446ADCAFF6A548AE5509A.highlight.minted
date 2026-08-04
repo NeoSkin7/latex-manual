@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+I know that \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}sin}\PYG{o}{(}\PYG{l+m}{0}\PYG{o}{)}\PYG{n+nb}{ }\PYG{o}{=}\PYG{n+nb}{ }\PYG{l+m}{0}\PYG{l+s}{\PYGZdl{}}, therefore it can be eliminated in the formula
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}cancel}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}sin}(0)\PYG{n+nb}{\PYGZcb{}} + \PYG{k}{\PYGZbs{}cos}(0) = x\PYG{k}{\PYGZbs{},} ,
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+however, \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}cos}\PYG{o}{(}\PYG{l+m}{0}\PYG{o}{)}\PYG{n+nb}{ }\PYG{o}{=}\PYG{n+nb}{ }\PYG{l+m}{1}\PYG{l+s}{\PYGZdl{}}, so it cancels to \PYG{l+s}{\PYGZdl{}}\PYG{l+m}{1}\PYG{l+s}{\PYGZdl{}} and gives the result
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  x = \PYG{k}{\PYGZbs{}cancel}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}sin}(0)\PYG{n+nb}{\PYGZcb{}} + \PYG{k}{\PYGZbs{}cancelto}\PYG{n+nb}{\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}cos}(0)\PYG{n+nb}{\PYGZcb{}} = 1\PYG{k}{\PYGZbs{},} .
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

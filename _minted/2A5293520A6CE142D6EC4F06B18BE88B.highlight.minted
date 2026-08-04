@@ -1,0 +1,12 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nc}{@book}\PYG{p}{\PYGZob{}}\PYG{n+nl}{hutley\PYGZus{}1982}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{address}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}London; New York\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{series}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Techniques of Physics\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{title}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Diffraction Gratings\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{ISBN}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}978\PYGZhy{}0\PYGZhy{}12\PYGZhy{}362980\PYGZhy{}7\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{callNumber}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}QC417 .H87 1982\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{publisher}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Academic Press\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{author}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Hutley, M C\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{year}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}1982\PYGZcb{}}\PYG{p}{,}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

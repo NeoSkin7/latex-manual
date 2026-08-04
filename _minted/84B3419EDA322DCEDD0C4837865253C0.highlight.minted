@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+This is an equation with highlighting:
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}oint} \PYG{k}{\PYGZbs{}vb}\PYG{n+nb}{\PYGZob{}}E\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}vdot} \PYG{k}{\PYGZbs{}dd}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}vb}\PYG{n+nb}{\PYGZob{}}A\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} = \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}Q\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}colorbox}\PYG{n+nb}{\PYGZob{}}yellow\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}varepsilon}\PYG{n+nb}{\PYGZus{}}\PYG{l+m}{0}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}\PYG{k}{\PYGZbs{},} .
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

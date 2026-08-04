@@ -1,0 +1,3 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{\PYGZbs{}iiint}\PYG{k}{\PYGZbs{}limits\PYGZus{}}\PYG{esc}{V} f \PYG{k}{\PYGZbs{}dd}\PYG{n+nb}{\PYGZob{}}V\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

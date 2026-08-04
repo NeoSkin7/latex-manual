@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}v\PYG{n+nb}{\PYGZcb{}} = x\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}i\PYG{n+nb}{\PYGZcb{}} + y\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}j\PYG{n+nb}{\PYGZcb{}} + z\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}k\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}a\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}cdot} \PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}b\PYG{n+nb}{\PYGZcb{}} = c
+\PYG{k}{\PYGZbs{}vec}\PYG{n+nb}{\PYGZob{}}a\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}times} \PYG{k}{\PYGZbs{}vec}\PYG{n+nb}{\PYGZob{}}b\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}vec}\PYG{n+nb}{\PYGZob{}}c\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}M\PYG{n+nb}{\PYGZcb{}\PYGZca{}\PYGZob{}}\PYGZhy{}1\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}M\PYG{n+nb}{\PYGZcb{}\PYGZca{}\PYGZob{}}\PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}T\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} \PYG{c}{\PYGZpc{}...for an orthogonal matrix}
+\end{MintedVerbatim}

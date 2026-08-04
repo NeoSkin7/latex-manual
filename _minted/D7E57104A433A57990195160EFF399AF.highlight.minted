@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+My Method is Section\PYGZti{}\PYG{k}{\PYGZbs{}ref}\PYG{n+nb}{\PYGZob{}}sec:method\PYG{n+nb}{\PYGZcb{}}.
+
+From the data in Table\PYGZti{}\PYG{k}{\PYGZbs{}ref}\PYG{n+nb}{\PYGZob{}}tab:table\PYG{n+nb}{\PYGZcb{}}, we see that...
+
+See the plot in Figure\PYGZti{}\PYG{k}{\PYGZbs{}ref}\PYG{n+nb}{\PYGZob{}}fig:figure\PYG{n+nb}{\PYGZcb{}} and Equation\PYGZti{}\PYG{k}{\PYGZbs{}ref}\PYG{n+nb}{\PYGZob{}}eq:equation\PYG{n+nb}{\PYGZcb{}} for...
+\end{MintedVerbatim}

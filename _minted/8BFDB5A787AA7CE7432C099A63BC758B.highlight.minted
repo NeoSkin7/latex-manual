@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}eq:equation\PYG{n+nb}{\PYGZcb{}}
+...
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+
+This text contains an equation: \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{...}\PYG{l+s}{\PYGZdl{}}, and another: \PYG{l+s}{\PYGZbs{}(}\PYG{n+nb}{...}\PYG{l+s}{\PYGZbs{})}.
+\end{MintedVerbatim}

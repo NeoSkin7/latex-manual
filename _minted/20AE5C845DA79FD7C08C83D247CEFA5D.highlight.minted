@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+y = x\PYG{n+nb}{\PYGZca{}}2
+\PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}dy\PYG{n+nb}{\PYGZcb{}\PYGZob{}}dx\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}}y\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}}x\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}x
+\PYG{k}{\PYGZbs{}int} y\PYG{k}{\PYGZbs{},\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}}x = \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}}x\PYG{n+nb}{\PYGZca{}}3 + C
+\PYG{k}{\PYGZbs{}int\PYGZus{}}\PYG{n+nb}{\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}\PYGZca{}\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}} y\PYG{k}{\PYGZbs{},\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}}x = \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}26\PYG{n+nb}{\PYGZcb{}\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

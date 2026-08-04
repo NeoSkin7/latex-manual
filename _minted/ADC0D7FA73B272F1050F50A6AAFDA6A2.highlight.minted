@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+This is normal text. \PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}Followed by some in italics\PYG{n+nb}{\PYGZcb{}}, \PYG{k}{\PYGZbs{}textbf}\PYG{n+nb}{\PYGZob{}}and then in boldface\PYG{n+nb}{\PYGZcb{}}.
+
+\PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}textbf}\PYG{n+nb}{\PYGZob{}}Why not both?\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} \PYG{k}{\PYGZbs{}underline}\PYG{n+nb}{\PYGZob{}}Or underlined?\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}Or adding \PYG{k}{\PYGZbs{}emph}\PYG{n+nb}{\PYGZob{}}emphasis\PYG{n+nb}{\PYGZcb{}} to text already in italics?\PYG{n+nb}{\PYGZcb{}}
+
+The options are limitless!
+\end{MintedVerbatim}

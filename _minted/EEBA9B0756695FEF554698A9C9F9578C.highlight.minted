@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+The expression
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  m\PYG{k}{\PYGZbs{}underbrace}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}dv}\PYG{n+na}{[2]}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZob{}}t\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZus{}\PYGZob{}}\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}a\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} + \PYG{k}{\PYGZbs{}overbrace}\PYG{n+nb}{\PYGZob{}}k\PYG{k}{\PYGZbs{}dv}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZob{}}t\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZca{}\PYGZob{}}=0\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}F\PYG{n+nb}{\PYGZcb{}}(\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}})\PYG{k}{\PYGZbs{},} ,
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+can be simplified as
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  m\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}a\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}F\PYG{n+nb}{\PYGZcb{}}(\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}})\PYG{k}{\PYGZbs{},} .
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

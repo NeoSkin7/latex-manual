@@ -1,0 +1,26 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+Normally fractions text look like this: \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}\PYG{n+nb}{a}\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}\PYG{n+nb}{b}\PYG{n+nb}{\PYGZcb{}}\PYG{l+s}{\PYGZdl{}} \PYGZhy{}\PYGZhy{} but they could look even nicer, like this: \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}flatfrac}\PYG{n+nb}{\PYGZob{}}\PYG{n+nb}{a}\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}\PYG{n+nb}{b}\PYG{n+nb}{\PYGZcb{}}\PYG{l+s}{\PYGZdl{}}!
+
+Derivatives and integrals are a lot easier:
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}eq:ez\PYGZhy{}calculus\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}dv}\PYG{n+na}{[2]}\PYG{n+nb}{\PYGZob{}}y\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}int} y\PYG{n+nb}{\PYGZca{}}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}prime}\PYG{k}{\PYGZbs{}prime}\PYG{k}{\PYGZbs{}prime}\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}dd}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+and even support partial derivatives:
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}eq:partials\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}pdv}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}}f(x) = \PYG{k}{\PYGZbs{}pdv}\PYG{n+na}{[1]}\PYG{n+nb}{\PYGZob{}}f\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+
+Improvements in operators make things easier to typeset than ever before:
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}cos}(\PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}vartheta}\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}) = \PYG{k}{\PYGZbs{}pm} \PYG{k}{\PYGZbs{}sqrt}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}1 + \PYG{k}{\PYGZbs{}cos} \PYG{k}{\PYGZbs{}vartheta}\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+
+The beautiful Gauss\PYGZsq{} divergence theorem states that
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}iiint\PYGZus{}}\PYG{esc}{V} \PYG{k}{\PYGZbs{}left}( \PYG{k}{\PYGZbs{}div} \PYG{k}{\PYGZbs{}vb}\PYG{n+nb}{\PYGZob{}}F\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}right}) \PYG{k}{\PYGZbs{}dd}\PYG{n+nb}{\PYGZob{}}V\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}oint\PYGZus{}}\PYG{esc}{S} \PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}F\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}vdot} \PYG{k}{\PYGZbs{}dd}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}vb}\PYG{n+nb}{\PYGZob{}}S\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{},} ,
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+however, the quantum state vector is an even more fabulous equation, which says that
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}ket}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}Psi}(t)\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}int} \PYG{k}{\PYGZbs{}Psi}(x,t) \PYG{k}{\PYGZbs{}ket}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}dd}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{},} .
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

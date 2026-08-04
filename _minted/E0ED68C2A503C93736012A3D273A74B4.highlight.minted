@@ -1,0 +1,14 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}input}\PYG{n+nb}{\PYGZob{}}preamble\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{c}{\PYGZpc{} Remember to update this!}
+\PYG{k}{\PYGZbs{}title}\PYG{n+nb}{\PYGZob{}}Some Experiment\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}author}\PYG{n+nb}{\PYGZob{}}L. Ab\PYGZsq{}rat\PYG{k}{\PYGZbs{}\PYGZbs{}}PH1140 OC03 Laboratory Report\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}date}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}today}\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}maketitle}
+
+\PYG{c}{\PYGZpc{} Start writing here}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

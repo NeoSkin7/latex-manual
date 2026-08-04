@@ -1,0 +1,5 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[separate\PYGZhy{}uncertainty=true]}\PYG{n+nb}{\PYGZob{}}siunitx\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}physics\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}AtBeginDocument}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}RenewCommandCopy\PYGZbs{}qty\PYGZbs{}SI}\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

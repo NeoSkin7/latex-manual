@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}block\PYG{n+nb}{\PYGZcb{}\PYGZob{}}Euler\PYGZsq{}s Formula\PYG{n+nb}{\PYGZcb{}}
+  My calculations used Euler\PYGZsq{}s Formula, which states that
+  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+    e\PYG{n+nb}{\PYGZca{}\PYGZob{}}i\PYG{k}{\PYGZbs{}varphi}\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}cos\PYGZbs{}varphi} + i\PYG{k}{\PYGZbs{}sin\PYGZbs{}varphi\PYGZbs{},} ,
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  where \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}varphi}\PYG{l+s}{\PYGZdl{}} is the argument of the complex number.
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}block\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+The equation for a mass\PYGZhy{}spring system is:
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}underbrace}\PYG{n+nb}{\PYGZob{}}m\PYG{k}{\PYGZbs{}dv}\PYG{n+na}{[2]}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZob{}}t\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZus{}\PYGZob{}}\PYG{k}{\PYGZbs{}text}\PYG{n+nb}{\PYGZob{}}acceleration\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} + \PYG{k}{\PYGZbs{}overbrace}\PYG{n+nb}{\PYGZob{}}k\PYG{k}{\PYGZbs{}dv}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZob{}}t\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZca{}\PYGZob{}}\PYG{k}{\PYGZbs{}text}\PYG{n+nb}{\PYGZob{}}damping\PYG{n+nb}{\PYGZcb{}\PYGZcb{}} = \PYG{k}{\PYGZbs{}underbrace}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}F\PYG{n+nb}{\PYGZcb{}}(\PYG{k}{\PYGZbs{}mathbf}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}})\PYG{n+nb}{\PYGZcb{}\PYGZus{}\PYGZob{}}\PYG{k}{\PYGZbs{}text}\PYG{n+nb}{\PYGZob{}}force\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}\PYG{k}{\PYGZbs{},} .
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

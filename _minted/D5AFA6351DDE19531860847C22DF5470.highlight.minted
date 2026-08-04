@@ -1,0 +1,21 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[giveninits=true,dateabbrev=false,urldate=long, language=british,sorting=none,backend=biber]}\PYG{n+nb}{\PYGZob{}}biblatex\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}addbibresource}\PYG{n+nb}{\PYGZob{}}main.bib\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}DeclareNameFormat}\PYG{n+nb}{\PYGZob{}}default\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{c}{\PYGZpc{}}
+  \PYG{k}{\PYGZbs{}nameparts}\PYG{n+nb}{\PYGZob{}}\PYGZsh{}1\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}}
+  \PYG{k}{\PYGZbs{}usebibmacro}\PYG{n+nb}{\PYGZob{}}name:family\PYGZhy{}given\PYG{n+nb}{\PYGZcb{}}
+    \PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}namepartfamily}\PYG{n+nb}{\PYGZcb{}}
+    \PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}namepartgiveni}\PYG{n+nb}{\PYGZcb{}}
+    \PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}namepartprefix}\PYG{n+nb}{\PYGZcb{}}
+    \PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}namepartsuffix}\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}}
+  \PYG{k}{\PYGZbs{}usebibmacro}\PYG{n+nb}{\PYGZob{}}name:andothers\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}renewcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}bibinitperiod}\PYG{n+nb}{\PYGZcb{}\PYGZob{}\PYGZcb{}}
+\PYG{k}{\PYGZbs{}DeclareFieldFormat}\PYG{n+nb}{\PYGZob{}}url\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}textsc}\PYG{n+nb}{\PYGZob{}}url\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}intitlepunct\PYGZbs{}url}\PYG{n+nb}{\PYGZob{}}\PYGZsh{}1\PYG{n+nb}{\PYGZcb{}},\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}DeclareFieldFormat}\PYG{n+nb}{\PYGZob{}}urldate\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{c}{\PYGZpc{}}
+  retrieved \PYG{k}{\PYGZbs{}thefield}\PYG{n+nb}{\PYGZob{}}urlday\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}addspace}\PYG{c}{\PYGZpc{}}
+  \PYG{k}{\PYGZbs{}mkbibmonth}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}thefield}\PYG{n+nb}{\PYGZob{}}urlmonth\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}\PYG{k}{\PYGZbs{}addspace}\PYG{c}{\PYGZpc{}}
+  \PYG{k}{\PYGZbs{}thefield}\PYG{n+nb}{\PYGZob{}}urlyear\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}isdot}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}renewbibmacro}\PYG{n+nb}{\PYGZob{}}in:\PYG{n+nb}{\PYGZcb{}\PYGZob{}\PYGZcb{}}
+\end{MintedVerbatim}

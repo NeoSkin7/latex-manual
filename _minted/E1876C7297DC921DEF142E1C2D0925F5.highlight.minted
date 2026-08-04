@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[sorting=none,backend=biber]}\PYG{n+nb}{\PYGZob{}}biblatex\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}addbibresource}\PYG{n+nb}{\PYGZob{}}main.bib\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+This is calculated using the diffraction grating equation \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{d}\PYG{n+nv}{\PYGZbs{}sin}\PYG{n+nv}{\PYGZbs{}vartheta}\PYG{o}{=}\PYG{n+nb}{n}\PYG{n+nv}{\PYGZbs{}lambda}\PYG{l+s}{\PYGZdl{}} \PYG{k}{\PYGZbs{}cite}\PYG{n+nb}{\PYGZob{}}hutley\PYG{esc}{\_}1982\PYG{n+nb}{\PYGZcb{}}.
+
+\PYG{k}{\PYGZbs{}printbibliography}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

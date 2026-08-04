@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}frame\PYG{n+nb}{\PYGZcb{}\PYGZob{}}Frame with Notes\PYG{n+nb}{\PYGZcb{}}
+  This is my very important frame contents.
+
+  Here is a bit more...
+
+  \PYG{k}{\PYGZbs{}note}\PYG{n+nb}{\PYGZob{}}
+    All of my notes can go here, formatted as you would expect with a LaTeX document!
+
+    Leave a space between lines to start a new paragraph.
+  \PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}frame\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

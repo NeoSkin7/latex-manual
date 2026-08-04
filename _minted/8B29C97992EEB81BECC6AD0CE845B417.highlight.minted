@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}frame\PYG{n+nb}{\PYGZcb{}\PYGZob{}}Frame with Notes\PYG{n+nb}{\PYGZcb{}}
+  This is my very important frame contents.
+  \PYG{k}{\PYGZbs{}note}\PYG{n+na}{[item]}\PYG{n+nb}{\PYGZob{}}It really is \PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}very\PYG{n+nb}{\PYGZcb{}} important!\PYG{n+nb}{\PYGZcb{}}
+
+  Here is a bit more...
+  \PYG{k}{\PYGZbs{}note}\PYG{n+na}{[item]}\PYG{n+nb}{\PYGZob{}}This bit may be aided with the formula \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{o}{+}\PYG{n+nb}{b}\PYG{o}{=}\PYG{l+m}{12}\PYG{l+s}{\PYGZdl{}}.\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}frame\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

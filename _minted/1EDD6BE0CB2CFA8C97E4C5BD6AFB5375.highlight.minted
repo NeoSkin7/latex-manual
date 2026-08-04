@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}eq:area\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}split\PYG{n+nb}{\PYGZcb{}}
+    A \PYG{n+nb}{\PYGZam{}} = \PYG{k}{\PYGZbs{}pi} r\PYG{n+nb}{\PYGZus{}}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}text}\PYG{n+nb}{\PYGZob{}}of circle\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZca{}}2       \PYG{k}{\PYGZbs{}\PYGZbs{}}
+      \PYG{n+nb}{\PYGZam{}} = \PYG{k}{\PYGZbs{}pi} \PYG{k}{\PYGZbs{}left}( \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZca{}}2\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}4\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}right})
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}split\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+The area of a circle is given by \PYG{k}{\PYGZbs{}eqref}\PYG{n+nb}{\PYGZob{}}eq:area\PYG{n+nb}{\PYGZcb{}}, whilst the volume of a sphere can be found by using the triple integral
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}iiint\PYGZus{}}\PYG{esc}{V} r\PYG{n+nb}{\PYGZca{}}2 \PYG{k}{\PYGZbs{}sin} \PYG{k}{\PYGZbs{}vartheta}\PYG{k}{\PYGZbs{},} \PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}}r\PYG{k}{\PYGZbs{},} \PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}vartheta}\PYG{k}{\PYGZbs{},} \PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}varphi}\PYG{k}{\PYGZbs{},} ,
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+where \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{r}\PYG{l+s}{\PYGZdl{}} is the radius of a sphere defined by the volume \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{V}\PYG{l+s}{\PYGZdl{}} in spherical coordinates.
+\end{MintedVerbatim}

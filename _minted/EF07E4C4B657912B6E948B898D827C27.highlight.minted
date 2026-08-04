@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}section}\PYG{n+nb}{\PYGZob{}}Introduction\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}subsection}\PYG{n+nb}{\PYGZob{}}The Science\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}abstract\PYG{n+nb}{\PYGZcb{}}
+... \PYG{c}{\PYGZpc{} Abstracts are a bit different, this bit should really be above the introduction!}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}abstract\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

@@ -1,0 +1,16 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}section}\PYG{n+nb}{\PYGZob{}}Method\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}sec:method\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} Labelling a section}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+...
+\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tab:table\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+...
+\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:figure\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\PYG{c}{\PYGZpc{} Tables and figures must always be labelled after their content}
+
+\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}eq:equation\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} The label for an equation \PYGZhy{} we will see this in use later}
+\end{MintedVerbatim}

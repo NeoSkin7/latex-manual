@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}item} One
+  \PYG{k}{\PYGZbs{}item} Two
+  \PYG{k}{\PYGZbs{}item} Three
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}item} One
+  \PYG{k}{\PYGZbs{}item} Two
+  \PYG{k}{\PYGZbs{}item} Three
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

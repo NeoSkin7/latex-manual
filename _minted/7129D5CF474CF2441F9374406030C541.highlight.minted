@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}align\PYG{n+nb}{\PYGZcb{}}
+  A \PYG{n+nb}{\PYGZam{}} = \PYG{k}{\PYGZbs{}pi} r\PYG{n+nb}{\PYGZca{}}2           \PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{n+nb}{\PYGZam{}} = \PYG{k}{\PYGZbs{}pi} \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZca{}}2\PYG{n+nb}{\PYGZcb{}\PYGZob{}}4\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}align\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

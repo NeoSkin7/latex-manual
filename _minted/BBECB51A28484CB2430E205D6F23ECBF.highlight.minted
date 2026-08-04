@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} Uncomment the template which works best}
+\PYG{k}{\PYGZbs{}setbeamertemplate}\PYG{n+nb}{\PYGZob{}}note page\PYG{n+nb}{\PYGZcb{}}[default]
+\PYG{c}{\PYGZpc{} \PYGZbs{}setbeamertemplate\PYGZob{}note page\PYGZcb{}[compress]}
+\PYG{c}{\PYGZpc{} \PYGZbs{}setbeamertemplate\PYGZob{}note page\PYGZcb{}[plain]}
+\PYG{c}{\PYGZpc{} \PYGZbs{}setbeamertemplate\PYGZob{}note page\PYGZcb{}[lined]}
+\end{MintedVerbatim}

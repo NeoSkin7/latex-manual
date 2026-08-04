@@ -1,0 +1,21 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nc}{@online}\PYG{p}{\PYGZob{}}\PYG{n+nl}{sansonetti\PYGZus{}2013}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{location}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Gaithersburg, \PYGZob{}MD\PYGZcb{}\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{title}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Atomic Data for Krypton (Kr)\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{url}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}https://physics.nist.gov/PhysRefData/Handbook/Tables/ kryptontable1.htm\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{titleaddon}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}\PYGZob{}NIST\PYGZcb{} Physical Measurement Laboratory\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{publisher}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}National Institute of Standards and Technology\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{author}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Sansonetti, J E and Martin, W C and Young, S L\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{urldate}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}2026\PYGZhy{}02\PYGZhy{}17\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{date}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}2013\PYGZcb{}}\PYG{p}{,}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{n+nc}{@inreference}\PYG{p}{\PYGZob{}}\PYG{n+nl}{kaboth\PYGZus{}2024}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{title}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Atomic Spectra Team Project\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{booktitle}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}\PYGZob{}PH\PYGZcb{}1140/1150 Scientific Skills\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{publisher}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Royal Holloway, \PYGZob{}UoL\PYGZcb{}\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{author}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Kaboth, Asher\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{date}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}2024\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+na}{langid}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}english\PYGZcb{}}\PYG{p}{,}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

@@ -1,0 +1,3 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}setbeamertemplate}\PYG{n+nb}{\PYGZob{}}caption\PYG{n+nb}{\PYGZcb{}}[numbered]
+\end{MintedVerbatim}

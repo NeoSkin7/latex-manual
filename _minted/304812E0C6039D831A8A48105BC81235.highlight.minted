@@ -1,0 +1,16 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}centering}
+  \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}The current and voltage characteristics of different element samples.\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}} l l l \PYG{n+nb}{\PYGZcb{}}
+    Element \PYG{n+nb}{\PYGZam{}} Voltage, \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{V}\PYG{l+s}{\PYGZdl{}} / V \PYG{n+nb}{\PYGZam{}} Current, \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{I}\PYG{l+s}{\PYGZdl{}} / A \PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}hline}
+    H       \PYG{n+nb}{\PYGZam{}} 1.0 \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}pm}\PYG{l+s}{\PYGZdl{}} 0.1    \PYG{n+nb}{\PYGZam{}} 2.0 \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}pm}\PYG{l+s}{\PYGZdl{}} 0.1    \PYG{k}{\PYGZbs{}\PYGZbs{}}
+    He      \PYG{n+nb}{\PYGZam{}} 4.0              \PYG{n+nb}{\PYGZam{}} 5.0              \PYG{k}{\PYGZbs{}\PYGZbs{}}
+    Li      \PYG{n+nb}{\PYGZam{}} 7.0              \PYG{n+nb}{\PYGZam{}} 8.0              \PYG{k}{\PYGZbs{}\PYGZbs{}}
+    Na      \PYG{n+nb}{\PYGZam{}} 10 \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}pm}\PYG{l+s}{\PYGZdl{}} 1       \PYG{n+nb}{\PYGZam{}} 11 \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}pm}\PYG{l+s}{\PYGZdl{}} 1       \PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}hline}
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tab:iv\PYGZhy{}elem\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}
