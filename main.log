@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.22)  25 JUL 2026 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.22)  11 SEP 2026 17:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/ONEDRIVE/PERSONAL/DOCUMENTS/University/PhySoc/LaTeX Guide/main.tex"
-(d:/ONEDRIVE/PERSONAL/DOCUMENTS/University/PhySoc/LaTeX Guide/main.tex
+**d:/ONEDRIVE/PERSONAL/DOCUMENTS/University/PhySoc/latex-manual/main.tex
+(d:/ONEDRIVE/PERSONAL/DOCUMENTS/University/PhySoc/latex-manual/main.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
 (C:\Users\neosk\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
@@ -1198,12 +1198,12 @@ l.207 E
 ]
 
 pdfTeX warning: pdflatex (file ./overleaf-logo-primary.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<overleaf-logo-primary.pdf, id=460, 1063.975pt x 439.6425pt>
+<overleaf-logo-primary.pdf, id=461, 1063.975pt x 439.6425pt>
 File: overleaf-logo-primary.pdf Graphic file (type pdf)
 <use overleaf-logo-primary.pdf>
 Package pdftex.def Info: overleaf-logo-primary.pdf  used on input line 215.
 (pdftex.def)             Requested size: 190.63354pt x 78.76997pt.
-<overleaf-editor.png, id=462, 1410.77063pt x 743.77875pt>
+<overleaf-editor.png, id=463, 1410.77063pt x 743.77875pt>
 File: overleaf-editor.png Graphic file (type png)
 <use overleaf-editor.png>
 Package pdftex.def Info: overleaf-editor.png  used on input line 224.
@@ -1212,7 +1212,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<download.png, id=465, 24.09pt x 24.09pt>
+<download.png, id=466, 24.09pt x 24.09pt>
 File: download.png Graphic file (type png)
 <use download.png>
 Package pdftex.def Info: download.png  used on input line 235.
@@ -1223,7 +1223,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.236 
        [2 <./overleaf-logo-primary.pdf>]
-<description.png, id=489, 24.09pt x 24.09pt>
+<description.png, id=490, 24.09pt x 24.09pt>
 File: description.png Graphic file (type png)
 <use description.png>
 Package pdftex.def Info: description.png  used on input line 237.
@@ -1238,10 +1238,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \pydata@fh@0=\write7
 \openout7 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
 
-runsystem(latexminted config  --timestamp 20260725143443 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted config  --timestamp 20260911174135 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
  (_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20260725143443 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20260911174135 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
  (_minted/default.style.minted) (_minted/2E12E8CA30B061791714B538A4A215EF.highlight.minted
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1.
@@ -1276,7 +1276,7 @@ Package mdframed Info: mdframed inside a box
  mdframed uses option nobreak mdframed on input line 393.
  (_minted/983AB850E58DD0BAD5E29E6B621BA628.highlight.minted) (_minted/C4C1593DB5B75BF9529933066EE04222.highlight.minted) [8] (_minted/851ABF460FF13798DBAED7ECC0E86FD9.highlight.minted) (_minted/C3F4FEA3CF87BE3760942812F4600819.highlight.minted) (_minted/F5B9B131DFED3EBF5A0AFD3CFD04843D.highlight.minted) (_minted/0C7796BAC06C726914AE9CDF77B1E3FE.highlight.minted) (_minted/8DEEB66ADEA3A2AF67C9EEE12DE208DB.highlight.minted) (_minted/6A3E381E950CFDD87C6462D33D2446B5.highlight.minted) (_minted/2E1D594734188BE6A92C7D4769BD6795.highlight.minted) (_minted/220B3A27EACE2ED73166201AB1272449.highlight.minted) (_minted/94B9711D9AEB4C4476ED1FEE8FF0843A.highlight.minted) (_minted/544D46337641B3954CDCF4928C0C6F36.highlight.minted) (_minted/1639B87E56CEA44A4D16CCB61888E45B.highlight.minted) (_minted/60AC8875FE3A52BB39867B01390B5D2E.highlight.minted [9])
 Package mdframed Info: mdframed works in twoside mode on input line 438.
-<figure.pdf, id=544, 433.62pt x 289.08pt>
+<figure.pdf, id=545, 433.62pt x 289.08pt>
 File: figure.pdf Graphic file (type pdf)
 <use figure.pdf>
 Package pdftex.def Info: figure.pdf  used on input line 439.
@@ -1391,7 +1391,7 @@ Chapter 3.
 
 
 pdfTeX warning: pdflatex (file ./pres-comp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-comp.pdf, id=730, page=1, 963.6pt x 542.025pt>
+<pres-comp.pdf, id=731, page=1, 963.6pt x 542.025pt>
 File: pres-comp.pdf Graphic file (type pdf)
 <use pres-comp.pdf, page 1>
 Package pdftex.def Info: pres-comp.pdf , page1 used on input line 1159.
@@ -1399,18 +1399,18 @@ Package pdftex.def Info: pres-comp.pdf , page1 used on input line 1159.
 
 
 pdfTeX warning: pdflatex (file ./pres-comp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-comp.pdf, id=731, page=3, 364.19562pt x 273.14648pt>
+<pres-comp.pdf, id=732, page=3, 364.19562pt x 273.14648pt>
 File: pres-comp.pdf Graphic file (type pdf)
 <use pres-comp.pdf, page 3>
 Package pdftex.def Info: pres-comp.pdf , page3 used on input line 1161.
 (pdftex.def)             Requested size: 171.56903pt x 128.67894pt.
 [31] (_minted/943B8CEA424855C3B8FC1E190F6542C9.highlight.minted) (_minted/11AA34D7BA9665796FE0401EE5716AE1.highlight.minted) (_minted/1333A0A0C067D3CAE386796415A57750.highlight.minted) (_minted/1777B089A6F5615A1DB666A23081354F.highlight.minted) (_minted/9CE7F9939C5791574E25D0EF8F600612.highlight.minted) (_minted/60C7090F1961E6EF6A98A024AE17AEC9.highlight.minted [32 <./pres-comp.pdf> <./pres-comp.pdf>]) (_minted/6796BE03BD4C69553411F6D4B3FF5502.highlight.minted) (_minted/6E95C9A2A85DF28FE4A3A502298616D9.highlight.minted) (_minted/F7EEC1EE9DE489F566D912EA166ABE99.highlight.minted) (_minted/800D6376B890E9B7E5836370F607AA7C.highlight.minted) (_minted/8D9A29E68ACF70F7905C9516360D3E0D.highlight.minted) (_minted/5D3DAD28F5B6E4C4D9EC72BD46F88158.highlight.minted) (_minted/11A8823B4BD3D985BFE644F2F76FE1B8.highlight.minted [33])
-<pres-ex.pdf, id=877, page=1, 364.19562pt x 273.14648pt>
+<pres-ex.pdf, id=878, page=1, 364.19562pt x 273.14648pt>
 File: pres-ex.pdf Graphic file (type pdf)
 <use pres-ex.pdf, page 1>
 Package pdftex.def Info: pres-ex.pdf , page1 used on input line 1253.
 (pdftex.def)             Requested size: 181.10419pt x 135.82684pt.
-<pres-ex.pdf, id=878, page=2, 364.19562pt x 273.14648pt>
+<pres-ex.pdf, id=879, page=2, 364.19562pt x 273.14648pt>
 File: pres-ex.pdf Graphic file (type pdf)
 <use pres-ex.pdf, page 2>
 Package pdftex.def Info: pres-ex.pdf , page2 used on input line 1255.
@@ -1418,7 +1418,7 @@ Package pdftex.def Info: pres-ex.pdf , page2 used on input line 1255.
  [34 <./pres-ex.pdf> <./pres-ex.pdf>] (_minted/CA3782600E088722FA33E7E9454E1EFB.highlight.minted)
 
 pdfTeX warning: pdflatex (file ./pres-themes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-themes.pdf, id=897, page=1, 364.19562pt x 273.14648pt>
+<pres-themes.pdf, id=898, page=1, 364.19562pt x 273.14648pt>
 File: pres-themes.pdf Graphic file (type pdf)
 <use pres-themes.pdf, page 1>
 Package pdftex.def Info: pres-themes.pdf , page1 used on input line 1276.
@@ -1426,7 +1426,7 @@ Package pdftex.def Info: pres-themes.pdf , page1 used on input line 1276.
 
 
 pdfTeX warning: pdflatex (file ./pres-themes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-themes.pdf, id=898, page=2, 364.19562pt x 273.14648pt>
+<pres-themes.pdf, id=899, page=2, 364.19562pt x 273.14648pt>
 File: pres-themes.pdf Graphic file (type pdf)
 <use pres-themes.pdf, page 2>
 Package pdftex.def Info: pres-themes.pdf , page2 used on input line 1278.
@@ -1434,7 +1434,7 @@ Package pdftex.def Info: pres-themes.pdf , page2 used on input line 1278.
 (_minted/93CA860A538E2D682F40A456D558601E.highlight.minted)
 
 pdfTeX warning: pdflatex (file ./pres-themes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-themes.pdf, id=899, page=5, 364.19562pt x 273.14648pt>
+<pres-themes.pdf, id=900, page=5, 364.19562pt x 273.14648pt>
 File: pres-themes.pdf Graphic file (type pdf)
 <use pres-themes.pdf, page 5>
 Package pdftex.def Info: pres-themes.pdf , page5 used on input line 1286.
@@ -1442,7 +1442,7 @@ Package pdftex.def Info: pres-themes.pdf , page5 used on input line 1286.
 
 
 pdfTeX warning: pdflatex (file ./pres-themes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-themes.pdf, id=900, page=6, 364.19562pt x 273.14648pt>
+<pres-themes.pdf, id=901, page=6, 364.19562pt x 273.14648pt>
 File: pres-themes.pdf Graphic file (type pdf)
 <use pres-themes.pdf, page 6>
 Package pdftex.def Info: pres-themes.pdf , page6 used on input line 1288.
@@ -1450,7 +1450,7 @@ Package pdftex.def Info: pres-themes.pdf , page6 used on input line 1288.
 [35 <./pres-themes.pdf> <./pres-themes.pdf> <./pres-themes.pdf> <./pres-themes.pdf>]
 
 pdfTeX warning: pdflatex (file ./pres-themes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-themes.pdf, id=947, page=3, 364.19562pt x 273.14648pt>
+<pres-themes.pdf, id=948, page=3, 364.19562pt x 273.14648pt>
 File: pres-themes.pdf Graphic file (type pdf)
 <use pres-themes.pdf, page 3>
 Package pdftex.def Info: pres-themes.pdf , page3 used on input line 1298.
@@ -1458,7 +1458,7 @@ Package pdftex.def Info: pres-themes.pdf , page3 used on input line 1298.
 
 
 pdfTeX warning: pdflatex (file ./pres-themes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-themes.pdf, id=948, page=4, 364.19562pt x 273.14648pt>
+<pres-themes.pdf, id=949, page=4, 364.19562pt x 273.14648pt>
 File: pres-themes.pdf Graphic file (type pdf)
 <use pres-themes.pdf, page 4>
 Package pdftex.def Info: pres-themes.pdf , page4 used on input line 1300.
@@ -1466,7 +1466,7 @@ Package pdftex.def Info: pres-themes.pdf , page4 used on input line 1300.
 (_minted/66AB8E6198F21C4CE1E7C8E96A18A241.highlight.minted)
 
 pdfTeX warning: pdflatex (file ./pres-themes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-themes.pdf, id=949, page=7, 364.19562pt x 273.14648pt>
+<pres-themes.pdf, id=950, page=7, 364.19562pt x 273.14648pt>
 File: pres-themes.pdf Graphic file (type pdf)
 <use pres-themes.pdf, page 7>
 Package pdftex.def Info: pres-themes.pdf , page7 used on input line 1308.
@@ -1474,24 +1474,24 @@ Package pdftex.def Info: pres-themes.pdf , page7 used on input line 1308.
 
 
 pdfTeX warning: pdflatex (file ./pres-themes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pres-themes.pdf, id=950, page=8, 364.19562pt x 273.14648pt>
+<pres-themes.pdf, id=951, page=8, 364.19562pt x 273.14648pt>
 File: pres-themes.pdf Graphic file (type pdf)
 <use pres-themes.pdf, page 8>
 Package pdftex.def Info: pres-themes.pdf , page8 used on input line 1310.
 (pdftex.def)             Requested size: 181.10419pt x 135.82684pt.
 [36 <./pres-themes.pdf> <./pres-themes.pdf> <./pres-themes.pdf> <./pres-themes.pdf>] (_minted/8B29C97992EEB81BECC6AD0CE845B417.highlight.minted) (_minted/794465A60805F4A011A3F076B3FE4D65.highlight.minted)
-<pres-notes.pdf, id=1013, page=1, 364.19562pt x 273.14648pt>
+<pres-notes.pdf, id=1014, page=1, 364.19562pt x 273.14648pt>
 File: pres-notes.pdf Graphic file (type pdf)
 <use pres-notes.pdf, page 1>
 Package pdftex.def Info: pres-notes.pdf , page1 used on input line 1337.
 (pdftex.def)             Requested size: 181.10419pt x 135.82684pt.
-<pres-notes.pdf, id=1014, page=2, 364.19562pt x 273.14648pt>
+<pres-notes.pdf, id=1015, page=2, 364.19562pt x 273.14648pt>
 File: pres-notes.pdf Graphic file (type pdf)
 <use pres-notes.pdf, page 2>
 Package pdftex.def Info: pres-notes.pdf , page2 used on input line 1339.
 (pdftex.def)             Requested size: 181.10419pt x 135.82684pt.
  (_minted/558A6D57A61244765D5B40C5868F6B85.highlight.minted) [37 <./pres-notes.pdf> <./pres-notes.pdf>] (_minted/77B1A1003A9FD23F90A2F88A78B169D7.highlight.minted) (_minted/95DD455370116BF58D7163FD3C8D6A47.highlight.minted)
-<pres-notes2.pdf, id=1043, page=1, 728.39026pt x 273.14648pt>
+<pres-notes2.pdf, id=1044, page=1, 728.39026pt x 273.14648pt>
 File: pres-notes2.pdf Graphic file (type pdf)
 <use pres-notes2.pdf, page 1>
 Package pdftex.def Info: pres-notes2.pdf , page1 used on input line 1368.
@@ -1534,12 +1534,12 @@ l.1500   \begin{equation}
 Package mdframed Info: mdframed works in twoside mode on input line 1518.
  [42] (_minted/F5C7DFC4B80D71053BDA6E92F448FECB.highlight.minted) (_minted/118D001D05A73A62AF5E6D2DA5534321.highlight.minted) (_minted/29EE9761EF49635C65FCCC5FC55A7DBA.highlight.minted) (_minted/3D1D004F59F63D00DE6D9E52F33A0CC6.highlight.minted) (_minted/1A75267A1E3D07DA45D88565E8DBE1EC.highlight.minted) (_minted/C4AA2B2B727419E0D25672D878B1062B.highlight.minted) (_minted/54EBBDAC99013ADF0C66F364D47D8C06.highlight.minted) (_minted/9F93910689953EE49B41AADA3E5BDDED.highlight.minted) (_minted/C6C95A95075709A25EAD9100D6758436.highlight.minted) (_minted/4F42C21810DD41CD17AE32B5ECEB0BD8.highlight.minted [43])
 Package mdframed Info: mdframed works in twoside mode on input line 1568.
-<example-image-a.pdf, id=1104, 321.2pt x 240.9pt>
+<example-image-a.pdf, id=1105, 321.2pt x 240.9pt>
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
 Package pdftex.def Info: example-image-a.pdf  used on input line 1569.
 (pdftex.def)             Requested size: 162.20909pt x 121.65904pt.
-<example-image-b.pdf, id=1105, 321.2pt x 240.9pt>
+<example-image-b.pdf, id=1106, 321.2pt x 240.9pt>
 File: example-image-b.pdf Graphic file (type pdf)
 <use example-image-b.pdf>
 Package pdftex.def Info: example-image-b.pdf  used on input line 1570.
@@ -1551,7 +1551,7 @@ Package mdframed Info: mdframed inside a box
  (_minted/94B9711D9AEB4C4476ED1FEE8FF0843A.highlight.minted) [44 <C:/Users/neosk/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-a.pdf> <C:/Users/neosk/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-b.pdf>]
 
 pdfTeX warning: pdflatex (file ./py-col.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<py-col.pdf, id=1125, 662.475pt x 67.67282pt>
+<py-col.pdf, id=1126, 662.475pt x 67.67282pt>
 File: py-col.pdf Graphic file (type pdf)
 <use py-col.pdf>
 Package pdftex.def Info: py-col.pdf  used on input line 1593.
@@ -1635,11 +1635,11 @@ Overfull \hbox (2.95015pt too wide) in paragraph at lines 2174--2175
 [60]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/scsl' instead on input line 2195.
+(Font)              using `T1/cmr/m/scsl' instead on input line 2197.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/scsl' instead on input line 2196.
+(Font)              using `T1/cmr/m/scsl' instead on input line 2198.
 
 [61] (C:\Users\neosk\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
@@ -1658,17 +1658,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1DA82D2700C529AE91B168392BC1CC35;10594.
  ) 
 Here is how much of TeX's memory you used:
- 46181 strings out of 467510
- 1119633 string characters out of 5408794
+ 46182 strings out of 467510
+ 1120110 string characters out of 5408794
  1667024 words of memory out of 5000000
- 72782 multiletter control sequences out of 15000+600000
+ 72783 multiletter control sequences out of 15000+600000
  809834 words of font info for 378 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,19n,131p,1094b,1745s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,19n,131p,1093b,1745s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Bold.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Italic.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Regular.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbi1200.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx0500.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx0700.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc0700.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1728.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0500.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsc1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsi0800.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsi1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl0700.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss0800.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx0800.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti0700.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1000.pfb><C:/Users/neosk/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfxc1000.pfb>
-Output written on main.pdf (72 pages, 1979953 bytes).
+Output written on main.pdf (72 pages, 1980530 bytes).
 PDF statistics:
- 1616 PDF objects out of 1728 (max. 8388607)
+ 1619 PDF objects out of 1728 (max. 8388607)
  202 named destinations out of 1000 (max. 500000)
  126183 words of extra memory for PDF output out of 128383 (max. 10000000)
 
