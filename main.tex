@@ -155,9 +155,9 @@
 
   Cover design by N. L. Skinner and typeset in {\fontfamily{Montserrat-TOsF}\selectfont Montserrat}.
 
-  Version 0.3: 11 September 2026 (DRAFT)
+  Version 1.0: 24 October 2026
 
-  \textit{Overleaf} Report Template: Version 1.6
+  \textit{Overleaf} Report Template and Preamble: Version 1.8
 
   Suggestions for future versions should be shared with the author at \url[https://]{neoski.uk/contact}.
 
@@ -695,7 +695,7 @@ The final part of a report is referencing your work. This is done using the bibl
 At the end of your document (still within the \mintinline{latex}{document} environment), add a \linebreak\mintinline{latex}{thebibliography} environment for your references:
 \begin{minted}{latex}
 \begin{thebibliography}{1}
-  \bibitem{hutley:1982} Hutley, M C. \textit{Diffraction Gratings}. Techniques of Physics. London; New York: Academic Press, 1982. ISBN: 978-0-12-362980-7.
+  \bibitem{hutley:1982} Hutley MC. Diffraction Gratings. Techniques of Physics. London, New York: Academic Press; 1982.
 \end{thebibliography}
 \end{minted}
 \looseness=-1 the argument of the environment is the number of references you have in your bibliography. For example, if you have a bibliography with 12 references, use \linebreak\mintinline{latex}{\begin{thebibliography}{12}}. This ensures that references are correctly spaced on the page.
@@ -716,8 +716,8 @@ Putting all this together gives the following result (ignoring the title of the 
   ...
   \begingroup
   \renewcommand{\chapter}[2]{}
-  \begin{thebibliography}{99}
-    \bibitem{hutley:1982} Hutley, M C. \textit{Diffraction Gratings}. Techniques of Physics. London; New York: Academic Press, 1982. ISBN: 978-0-12-362980-7.
+  \begin{thebibliography}{1}
+    \bibitem{hutley:1982} Hutley MC. Diffraction Gratings. Techniques of Physics. London, New York: Academic Press; 1982.
   \end{thebibliography}
   \endgroup
 \end{mdframed}
@@ -859,7 +859,7 @@ The essential package for physics is, handily, called \textsf{physics}! This pac
 \begin{itemize}
   \item Nicer inline fractions;
   \item derivatives and differentials;
-  \item operators with automatic bracket resizing;
+  \item functions with automatic bracket resizing;
   \item vector notation; and
   \item bra-ket notation.
 \end{itemize}
@@ -876,7 +876,7 @@ and even support partial derivatives:
   \pdv{x}f(x) = \pdv[1]{f}{x}
 \end{equation}
 
-Improvements in operators make things easier to typeset than ever before:
+Improvements in functions make things easier to typeset than ever before:
 \begin{equation}
   \cos(\frac{\vartheta}{2}) = \pm \sqrt{\frac{1 + \cos \vartheta}{2}}
 \end{equation}
@@ -902,7 +902,7 @@ however, the quantum state vector is an even more fabulous equation, which says 
     \pdv{x}f(x) = \pdv[1]{f}{x}
   \end{equation}
 
-  Improvements in operators make things easier to typeset than ever before:
+  Improvements in functions make things easier to typeset than ever before:
   \begin{equation}
     \cos(\frac{\vartheta}{2}) = \pm \sqrt{\frac{1 + \cos \vartheta}{2}}
   \end{equation}
@@ -980,14 +980,14 @@ to avoid command clashes.
 Many people choose to automate the creation of bibliographies and citations using packages. All packages make use of the \BibTeX\ file format (ending with \verb|.bib|), which contains entries formatted like this:
 \begin{minted}{bibtex}
 @book{hutley_1982,
-  address = {London; New York},
+  address = {London, New York},
   series = {Techniques of Physics},
   title = {Diffraction Gratings},
   ISBN = {978-0-12-362980-7},
   callNumber = {QC417 .H87 1982},
   publisher = {Academic Press},
   author = {Hutley, M C},
-  year = {1982},
+  year = 1982
 }
 \end{minted}
 
@@ -999,122 +999,65 @@ The fields and material types are usually named as you would expect, although it
 
 Here are two more examples of \BibTeX\ entries, which you may find useful:
 \begin{minted}{bibtex}
-@online{sansonetti_2013,
+@webpage{sansonetti_2013,
   location = {Gaithersburg, {MD}},
   title = {Atomic Data for Krypton (Kr)},
   url = {https://physics.nist.gov/PhysRefData/Handbook/Tables/ kryptontable1.htm},
-  titleaddon = {{NIST} Physical Measurement Laboratory},
-  publisher = {National Institute of Standards and Technology},
+  publisher = {{NIST} Physical Measurement Laboratory},
   author = {Sansonetti, J E and Martin, W C and Young, S L},
-  urldate = {2026-02-17},
-  date = {2013},
+  type = {online catalog},
+  lastchecked = {17 Feb 2026},
+  updated = {Nov 2013},
+  year = 2013
 }
 
-@inreference{kaboth_2024,
+@unpublished{kaboth_2024,
   title = {Atomic Spectra Team Project},
-  booktitle = {{PH}1140/1150 Scientific Skills},
-  publisher = {Royal Holloway, {UoL}},
+  note = {Part of {PH}1140/1150 Scientific Skills},
+  organization = {Royal Holloway, {UoL}},
   author = {Kaboth, Asher},
-  date = {2024},
-  langid = {english},
+  year = 2024
 }
 \end{minted}
 note that abbreviations are placed inside braces to avoid them being placed in title case.
 
 Many online reference generators support exporting to \BibTeX, and some online reference material such as LibreTexts even have native `download \BibTeX\ reference' options, so you never have to worry about writing them yourself!
 
-\subsubsection{Using \BibLaTeX}
-Now that we know about the \BibTeX file format, how do we use it for referencing? Simple, by using a referencing package.
+\subsubsection{Using \texorpdfstring{\BibTeX}{BibTeX}}
+Now that we know about the \BibTeX\ file format, how do we use it for referencing? Simple, by using a referencing package.
 
-Whilst there are many different referencing packages, this manual will focus on \BibLaTeX. To start out, let us include it as a package and see it in action:
+Whilst there are many different referencing packages, this manual will focus on \BibTeX, the system which now comes built-in with most \LaTeX\ distributions. To start out, let us see it in action:
 \begin{minted}[escapeinside=||]{latex}
-\usepackage[sorting=none,backend=biber]{biblatex}
-\addbibresource{main.bib}
+\bibliographystyle{vancouver}
 
 \begin{document}
-This is calculated using the diffraction grating equation $d\sin\vartheta=n\lambda$ \cite{hutley|\_|1982}.
+This is calculated using the diffraction grating equation $d\sin\vartheta=n\lambda$ \cite[p. 25]{hutley|\_|1982}.
 
-\printbibliography
+\bibliography{main.bib}
 \end{document}
 \end{minted}
 \begin{mdframed}
-  This is calculated using the diffraction grating equation $d\sin\vartheta=n\lambda$ [1].\\
+  This is calculated using the diffraction grating equation $d\sin\vartheta=n\lambda$ [1, p.25].\\
   \dots
   \begingroup
   \renewcommand{\chapter}[2]{}
-  \begin{thebibliography}{99}
-    \bibitem{hutley_1982} M C Hutley. \textit{Diffraction Gratings}. Techniques of Physics. London; New York: Academic Press, 1982. \textsc{isbn}: 978-0-12-362980-7.
+  \begin{thebibliography}{1}
+    \bibitem{hutley_1982} Hutley MC. Diffraction Gratings. Techniques of Physics. London, New York: Academic Press; 1982.
   \end{thebibliography}
   \endgroup
 \end{mdframed}
 note that the title of the bibliography has again been omitted here.
 
-The \mintinline{latex}{\addbibresource} command tells \BibLaTeX\ what our \BibTeX\ file is (\verb|main.bib| in this case), try to make sure that all of your references are in the same file so that it simplifies this step.
+The \mintinline{latex}{\bibliographystyle{vancouver}} command tells \BibTeX\ which citation style to use -- in this case we are using Vancouver as the required report style.
 
-We cite things as usual with the \mintinline{latex}{\cite} command, but then use \mintinline{latex}{\printbibliography} to insert the bibliography. When using packages, bibliographies are `clever' and can sort references in many different way, so there is no need to organise your \BibTeX\ files. The \option{sorting} option controls how references should be sorted, with the \option{none} selection sorting them in the same order as they are cited.
+\looseness=-1 We cite things as usual with the \mintinline{latex}{\cite} command, but then use \mintinline{latex}{\bibliography{main.tex}} to insert the bibliography, with the \BibTeX\ file passed as the argument (\verb|main.bib| in this case) -- try to make sure that all of your references are in the same file so that it simplifies this step. When using packages, bibliographies are `clever' and can sort references in many different way, so there is no need to organise your \BibTeX\ files.
 
-Finally, we passed the \option{backend} option to the package. This tells it what binary to use for \BibTeX\ file processing -- in this case \biber. The reasoning behind this is not important, but it ensures that our references are processed in line with \BibLaTeX's expectations.
+The \mintinline{latex}{\cite} command allows for notes to be added to citations by passing them as an option (in square brackets). This is commonly used for page numbers, with a range of pages formatted as `pp. 2--3' (\mintinline{latex}{pp. 2--3}).
 
   {
     \scriptsize
-    \textsc{Note} that if you are using a desktop distribution, there is a specific compile sequence required to correctly handle referencing packages. For \BibLaTeX, you should run engines and binaries in this order: \pdfLaTeX\ $\rightarrow$ \biber\ $\rightarrow$ \pdfLaTeX\ $\rightarrow$ \pdfLaTeX. \biber\ is the binary used by \BibLaTeX\ to index \BibTeX\ files, which is why it is run here. \pdfLaTeX\ is run multiple times to correctly gather and use information from the index. This compile sequence is often preloaded with engines as a `recipe,' but you can still run all these tools separately for the same result. \textit{Overleaf} handles all of this automatically so you will only need to compile once.
+    \textsc{Note} that if you are using a desktop distribution, there is a specific compile sequence required to correctly handle referencing packages. For \BibTeX, you should run engines and binaries in this order: \pdfLaTeX\ $\rightarrow$ \BibTeX\ $\rightarrow$ \pdfLaTeX\ $\rightarrow$ \pdfLaTeX. \BibTeX\ has to index citations before they can be used, so it has to be run alongside \pdfLaTeX. \pdfLaTeX\ is run multiple times to correctly gather and use information from the index. This compile sequence is often preloaded with engines as a `recipe,' but you can still run all these tools separately for the same result. \textit{Overleaf} handles all of this automatically so you will only need to compile once.
   }
-
-\subsubsection{Combining Citations}
-
-If it is necessary to cite more than one reference, the \mintinline{latex}{\cites} command can be used, which follows the same format as the \mintinline{latex}{\cite} command, but with more than one citation:
-\begin{minted}[numbers=none,escapeinside=||]{latex}
-\cites[25]{hutley|\_|1982}|\color{optioncolor}[2-3]|{kaboth|\_|2024}{sansonetti|\_|2013}
-\end{minted}
-which produces the following result:
-\begin{mdframed}
-  This statement has multiple citations [1, p. 25, 2, pp. 2--3, 3]!\\
-  \dots
-  \begingroup
-  \renewcommand{\chapter}[2]{}
-  \begin{thebibliography}{99}
-    \bibitem{hutley_1982} M C Hutley. \textit{Diffraction Gratings}. Techniques of Physics. London; New York: Academic Press, 1982. \textsc{isbn}: 978-0-12-362980-7.
-    \bibitem{kaboth_2024} Asher Kaboth. \textit{Atomic Spectra Team Project}. In: \textit{PH1140/1150 Scientific Skills}. Royal Holloway, UoL, 2024.
-    \bibitem{sansonetti_2013} J E Sansonetti, W C Martin and S L Young. \textit{Atomic Data for Krypton (Kr)}. NIST Physical Measurement Laboratory. 2013. \textsc{url}: {\urlstyle{tt}\hypersetup{allcolors=black}\url{https://physics.nist.gov/PhysRefData/Handbook/Tables/%20kryptontable1.htm}} (visited on 02/12/2026).
-  \end{thebibliography}
-  \endgroup
-\end{mdframed}
-
-Each citation has its own options, so you can still pass page numbers and notes for each reference. Note that \BibLaTeX\ does not automatically sort citations so it is important that you put them in the correct order. For Vancouver, this should be the order that each reference is used within the phrase.
-
-The example above also shows how different styles of references are formatted, or at least by default, we will discuss how to improve the formatting in the next section.
-
-\subsubsection{Customising the Bibliography}
-You should (hopefully) have noticed that the output above is not quite the same as my manual example above. This is because the default reference style is not Vancouver, and whilst there are many different styles which can be selected in \BibLaTeX, none of them \textit{actually} meet our needs. Unfortunately, this means that we have to input some custom styling in the preamble:
-\begin{minted}{latex}
-\usepackage[giveninits=true,dateabbrev=false,urldate=long, language=british,sorting=none,backend=biber]{biblatex}
-\addbibresource{main.bib}
-\DeclareNameFormat{default}{%
-  \nameparts{#1}%
-  \usebibmacro{name:family-given}
-    {\namepartfamily}
-    {\namepartgiveni}
-    {\namepartprefix}
-    {\namepartsuffix}%
-  \usebibmacro{name:andothers}%
-}
-\renewcommand{\bibinitperiod}{}
-\DeclareFieldFormat{url}{\textsc{url}\intitlepunct\url{#1},}
-\DeclareFieldFormat{urldate}{%
-  retrieved \thefield{urlday}\addspace%
-  \mkbibmonth{\thefield{urlmonth}}\addspace%
-  \thefield{urlyear}\isdot
-}
-\renewbibmacro{in:}{}
-\end{minted}
-
-Try not to worry about what is actually happening here, shortly I will give you a file with this styling so you do not have to type it all out. However, the essence is that it redefines how certain fields are printed to the bibliography, adding characters and changing the order of different elements. Extra options have been provided to \BibLaTeX\ to support this custom styling.
-
-You will never be expected to understand or modify this \LaTeX\ code in an undergraduate degree, which is why it is supplied to you here without explanation!
-
-A useful cheat sheet for all things \BibLaTeX\ and \BibTeX\ is available at \url[https://]{ctan.org/pkg/biblatex-cheatsheet}. It includes all of the reference types and their fields, alongside much more detailed information about the \mintinline{latex}{\cite} command.
-
-I will reiterate that it is always better to give more information than \BibLaTeX\ displays than not enough! References are extremely important and just because a tool is producing them for you does not mean you can simply ignore how they are presented.
 
 \subsection{Recommended Configuration}
 A sample preamble is provided at \url[https://]{neoski.uk/files/latex/u-report/preamble.tex} which you can download and use:
@@ -1135,6 +1078,30 @@ A sample preamble is provided at \url[https://]{neoski.uk/files/latex/u-report/p
 just make sure that the \verb|preamble.tex| file is in the same folder as \verb|main.tex|.
 
 For users of \textit{Overleaf}, there is a template available which already has this preloaded alongside a basic document outline for you to start with immediately: \url[https://]{overleaf.com/read/zwqxqvrbgtxw\#a65740}, just click `Make a copy' under the file menu (top left). You could also use the file above by using the `Add file from external URL' option -- just make sure you keep the name of the file the same!
+
+\subsubsection{Combining Citations}
+
+The sample preamble adds an additional feature to \BibTeX : support for combining citations.
+
+If it is necessary to cite more than one reference, the \mintinline{latex}{\cites} command can be used, which follows the same format as the \mintinline{latex}{\cite} command, but with more than one citation:
+\begin{minted}[numbers=none,escapeinside=||]{latex}
+\cites[p. 25]{hutley|\_|1982}|\color{optioncolor}[pp. 2--3]|{kaboth|\_|2024}{sansonetti|\_|2013}
+\end{minted}
+which produces the following result:
+\begin{mdframed}
+  This statement has multiple citations [1, p. 25, 2, pp. 2--3, 3]!\\
+  \dots
+  \begingroup
+  \renewcommand{\chapter}[2]{}
+  \begin{thebibliography}{99}
+    \bibitem{hutley_1982} Hutley MC. Diffraction Gratings. Techniques of Physics. London, New York: Academic Press; 1982.
+    \bibitem{kaboth_2024} Kaboth A. Atomic Spectra Team Project; 2024. Part of PH1140/1150 Scientific Skills.
+    \bibitem{sansonetti_2013} Sansonetti JE, Martin WC, Young SL. Atomic Data for Krypton (Kr) [online catalog]. NIST Physical Measurement Laboratory; 2013 [updated Nov 2013; cited 17 Feb 2026]. Available from: \textsc{url}: {\urlstyle{tt}\hypersetup{allcolors=black}\url{https://physics.nist.gov/PhysRefData/Handbook/Tables/%20kryptontable1.htm}}.
+  \end{thebibliography}
+  \endgroup
+\end{mdframed}
+
+Note that \BibTeX\ does not automatically sort combined citations so it is important that you put them in the correct order. For Vancouver, this should be the order that each reference is used within the phrase.
 
 \ \linebreak
 \hrule
@@ -1586,11 +1553,11 @@ Some packages that work particularly well with presentations are listed below wi
 \subsubsection{\textsf{xcolor}}
 One of the most used and abused packages for \LaTeX\ is \textsf{xcolor}, which adds support for a practically infinite array of colours for use within documents. So far, I have avoided mentioning it as colours are very complicated things within scientific writing and something that is hard to get right.
 
-The main problem is accessibility: making sure that colours are readable in a variety of different situations and visually distinct for everyone. You will have already run into this when generating plots for laboratory reports, where the \textit{Python} library \verb|matplotlib| provides an excellent set of default colours specially chosen for people with colourblindness (see Figure~\ref{fig:py-col}).
+The main problem is accessibility: making sure that colours are readable in a variety of different situations and visually distinct for everyone. You should have already run into this when generating plots for laboratory reports, where the \textit{Python} library \verb|matplotlib| provides an excellent set of default colours specially chosen for people with colourblindness (see Figure~\ref{fig:py-col}).
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=\textwidth,alt={matplotlib offers blue, green, red, cyan, magneta, yellow, black, and white as default colours.}]{py-col}
+  \includegraphics[width=0.7\textwidth,alt={matplotlib offers blue, orange, green, red, purple, brown, pink, gray, olive, and cyan as default colours.}]{py-col}
   \caption{The default colours of \texttt{matplotlib} for \textit{Python}, chosen with accessibility in mind.}
   \label{fig:py-col}
 \end{figure}
@@ -1800,10 +1767,12 @@ but, be warned that there is a reason the sans-serif font is used: it is easier 
 \chapter{Mathematical Symbols}\label{chap:matsymb}
 This appendix details many common \LaTeX\ mathematical commands, supplemented by the \amsmath\ and \textsf{physics} packages -- which must be used to reproduce all of the typesetting below. It is not intended to be a complete list, but should meet the needs and requirements of most undergraduate physicists.
 
-  {
-    \hypersetup{linkcolor=black}
-    \localtableofcontents
-  }
+Note that the \textsf{siunitx} package has been used for a few of the examples below, but that it is not essential for mathematical typesetting within \LaTeX.
+
+{
+  \hypersetup{linkcolor=black}
+  \localtableofcontents
+}
 
 \newpage
 
@@ -1990,7 +1959,9 @@ This appendix details many common \LaTeX\ mathematical commands, supplemented by
   \mintinline{latex}{>}          & $>$          & \mintinline{latex}{\ge}      & $\ge$      & \mintinline{latex}{<}        & $<$        & \mintinline{latex}{\le}     & $\le$     \\
   \mintinline{latex}{\gg}        & $\gg$        & \mintinline{latex}{\ll}      & $\ll$      & \mintinline{latex}{\in}      & $\in$      & \mintinline{latex}{\notin}  & $\notin$  \\
   \mintinline{latex}{\cup}       & $\cup$       & \mintinline{latex}{\cap}     & $\cap$     & \mintinline{latex}{\subset}  & $\subset$  & \mintinline{latex}{\supset} & $\supset$ \\
-  \mintinline{latex}{\forall}    & $\forall$    & \mintinline{latex}{\exists}  & $\exists$  & \mintinline{latex}{\neq}     & $\neq$     & \mintinline{latex}{\approx} & $\approx$
+  \mintinline{latex}{\forall}    & $\forall$    & \mintinline{latex}{\exists}  & $\exists$  & \mintinline{latex}{\neq}     & $\neq$     & \mintinline{latex}{\approx} & $\approx$ \\
+  \mintinline{latex}{\sim}       & $\sim$       & \mintinline{latex}{\cong}    & $\cong$    & \mintinline{latex}{\simeq}   & $\simeq$   & \mintinline{latex}{\iff}    & $\iff$    \\
+  \mintinline{latex}{\oplus}     & $\oplus$     & \mintinline{latex}{\otimes}  & $\otimes$  & \mintinline{latex}{\odot}    & $\odot$    & \mintinline{latex}{\square} & $\square$
 \end{tabular}
 \\ \\
 \begin{tabular}{l l}
@@ -2196,7 +2167,7 @@ But, I am not suggesting that these are all you should look at! The \TeX\ Stack 
   \item[\colorbox{teal}{\color{white}$\bullet$}] \textit{Choosing a Reference Manager}: \url[https://]{libguides.bodleian.ox.ac.uk/reference-management/comparison-tables}
   \item[] \textit{\LaTeX\ and \BibTeX}: \url[https://]{libguides.bodleian.ox.ac.uk/reference-management/latexbibtex}
   \item[] \textit{\BibTeX\ Guide for \LaTeX\: References, Bib Files, and Better Workflows}: \url[https://]{bibtex.eu}
-  \item[] \textit{\BibLaTeX/Biber `cheat sheet'}: \url[https://]{ctan.org/pkg/biblatex-cheatsheet}
+  \item[] \textit{\BibTeX\ reference and tools}: \url[https://]{bibtex.org}
 \end{itemize}
 
 \phantomsection
@@ -2205,7 +2176,7 @@ But, I am not suggesting that these are all you should look at! The \TeX\ Stack 
   \item[\colorbox{orange}{\color{white}$*$}] \textit{Tips for creating and giving scientific presentations}: \url[https://]{courses.physics.illinois.edu/phys596/fa2013/Lectures/EffectiveScientificPresentations_FA13.pdf}
   \item[] \textit{Producing Academic Presentations}: \url[https://]{www.ulster.ac.uk/student/success/academic/academic-skills/producing-academic-presentations}
   \item[] \textit{\textsf{beamer} - A \LaTeX\ class for producing presentations and slides}: \url[https://]{ctan.org/pkg/beamer}
-  \item[\colorbox{orange}{\color{white}$*$}] \textit{\textsf{beamer}}: \url[https://]{www.overleaf.com/learn/latex/Beamer}
+  \item[\colorbox{orange}{\color{white}$*$}] \textit{\textsf{beamer} (\emph{Overleaf} documentation)}: \url[https://]{overleaf.com/learn/latex/Beamer}
   \item[] \textit{\LaTeX\ \textsf{beamer} Theme Matrix}: \url[https://]{hartwork.org/beamer-theme-matrix}
   \item[\colorbox{teal}{\color{white}$\bullet$}] \textit{\textsf{beamer} Viewer}: \url[https://]{beamerviewer.euxane.eu}
 \end{itemize}
@@ -2219,7 +2190,7 @@ But, I am not suggesting that these are all you should look at! The \TeX\ Stack 
   \item[] \textit{\textsf{hyperref}}: \url[https://]{ctan.org/pkg/hyperref}
   \item[] \textit{\textsf{physics}}: \url[https://]{ctan.org/pkg/physics}
   \item[] \textit{\textsf{siunitx}}: \url[https://]{ctan.org/pkg/siunitx}
-  \item[] \textit{\BibLaTeX}: \url[https://]{ctan.org/pkg/biblatex}
+  \item[] \textit{\BibTeX}: \url[https://]{ctan.org/topic/bibtex-doc}
   \item[] \textit{\textsf{subcaption}}: \url[https://]{ctan.org/pkg/subcaption}
   \item[] \textit{\textsf{xcolor}}: \url[https://]{ctan.org/pkg/xcolor}
   \item[] \textit{\textsf{cancel}}: \url[https://]{ctan.org/pkg/cancel}

@@ -1,0 +1,5 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}bibitem}\PYG{n+nb}{\PYGZob{}}hutley:1982\PYG{n+nb}{\PYGZcb{}} Hutley MC. Diffraction Gratings. Techniques of Physics. London, New York: Academic Press; 1982.
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}

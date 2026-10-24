@@ -10,7 +10,7 @@ and even support partial derivatives:
   \PYG{k}{\PYGZbs{}pdv}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}}f(x) = \PYG{k}{\PYGZbs{}pdv}\PYG{n+na}{[1]}\PYG{n+nb}{\PYGZob{}}f\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}}
 \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
 
-Improvements in operators make things easier to typeset than ever before:
+Improvements in functions make things easier to typeset than ever before:
 \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
   \PYG{k}{\PYGZbs{}cos}(\PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}vartheta}\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}) = \PYG{k}{\PYGZbs{}pm} \PYG{k}{\PYGZbs{}sqrt}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}1 + \PYG{k}{\PYGZbs{}cos} \PYG{k}{\PYGZbs{}vartheta}\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}\PYG{n+nb}{\PYGZcb{}}
 \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
